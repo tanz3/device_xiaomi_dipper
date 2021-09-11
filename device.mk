@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
-
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/dipper/dipper-vendor.mk)
+
+PRODUCT_SHIPPING_API_LEVEL := 27
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2248
