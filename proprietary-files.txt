@@ -28,14 +28,6 @@ vendor/firmware/tas2557_uCDSP_goer.bin
 vendor/etc/tas2557_aac.ftcfg
 vendor/etc/tas2557_goer.ftcfg
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbtnv.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbtnv.so
-
 # Camera
 vendor/bin/remosaic_daemon
 vendor/etc/camera/age_gender_bg
