@@ -1,4 +1,5 @@
 # Device proprietary files - from dipper's MIUI package 12.5.1.0.QEACNXM CN Stable version
+# OnePlus6T: OnePlus6T 11 RKQ1.201217.002 2111252327 release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -28,13 +29,13 @@ vendor/firmware/tas2557_uCDSP_goer.bin
 vendor/etc/tas2557_aac.ftcfg
 vendor/etc/tas2557_goer.ftcfg
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib/libbtnv.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/libbtnv.so
+# Bluetooth - from OnePlus6T
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|48453a6ffe1cf1419ee8229f53e174075c2bf07f
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|0fbdbff1fc6b30a02df3e21bd70454b01341d590
+vendor/lib/libbtnv.so|def5cfd6bc96962911eb6b485b5ce01aec70c6dc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|7a979f294a39e42f50090c71493d1ecabf61f201
+vendor/lib64/libbtnv.so|07e031527e60ce5e62a5017fd1d7ff83ef1aafcf
 
 # Camera
 vendor/bin/remosaic_daemon
